@@ -1,2 +1,4 @@
-[text](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf)
-studying compilers
+[Introduction to compilers - Douglas Thain](https://www3.nd.edu/~dthain/compilerbook/compilerbook.pdf)
+
+More:
+[Flex] (https://silcnitc.github.io/lex.html)

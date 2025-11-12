@@ -10,5 +10,6 @@ while { return TOKEN_WHILE; }
 {LETTER}+ { return TOKEN_IDENT; } 
 {DIGIT}+ { return TOKEN_NUMBER; }
 . { return TOKEN_ERROR; }
+.DAY {return TOKEN_DAY;}
 %%
 int yywrap() { return 1; }
