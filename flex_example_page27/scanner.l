@@ -7,9 +7,9 @@ LETTER [a-zA-Z]
 (" "|\t|\n) /* skip whitespace */
 \+ { return TOKEN_ADD; }
 while { return TOKEN_WHILE; }
+monday {return TOKEN_DAY;}
 {LETTER}+ { return TOKEN_IDENT; } 
 {DIGIT}+ { return TOKEN_NUMBER; }
 . { return TOKEN_ERROR; }
-.DAY {return TOKEN_DAY;}
 %%
 int yywrap() { return 1; }
