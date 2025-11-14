@@ -752,7 +752,7 @@ YY_RULE_SETUP
 case 4:
 YY_RULE_SETUP
 #line 11 "scanner.l"
-{printf("%s DAY\n", yytext);
+{printf("%s: DAY\n", yytext);
     return TOKEN_DAY;}
 	YY_BREAK
 case 5:
